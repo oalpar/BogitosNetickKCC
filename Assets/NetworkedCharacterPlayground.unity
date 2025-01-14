@@ -17304,7 +17304,7 @@ GameObject:
   - component: {fileID: 854516392}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23771,7 +23771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SandboxPrefab: {fileID: 0}
   Transport: {fileID: 11400000, guid: 14d6bc5ddd1f07449b55992b8e683358, type: 2}
-  Mode: 2
+  Mode: 4
   Clients: 1
   StartServerInMultiplePeersMode: 1
   AutoStart: 1
@@ -24588,7 +24588,7 @@ MonoBehaviour:
   _AoILayer: 0
   _BroadPhaseFilter: 0
   _NarrowPhaseFilter: 0
-  _PredictionMode: 0
+  _PredictionMode: 1
   _SpatialPrioritization: 0
   AddToNetworkLoop: 1
   _isPersistent: 0

@@ -232,7 +232,7 @@ MonoBehaviour:
   MaxStableMoveSpeed: 10
   StableMovementSharpness: 15
   OrientationSharpness: 10
-  OrientationMethod: 0
+  OrientationMethod: 1
   MaxAirMoveSpeed: 15
   AirAccelerationSpeed: 18
   Drag: 0.1
@@ -246,7 +246,7 @@ MonoBehaviour:
   BonusOrientationSharpness: 10
   BonusOrientationSharpnessDecayRate: 0.02
   <Gravity>k__BackingField: {x: 0, y: -30, z: 0}
-  MeshRoot: {fileID: 4036232530805280}
+  MeshRoot: {fileID: 43330286}
   CameraFollowPoint: {fileID: 4718917724592500}
   CrouchedCapsuleHeight: 1
   <_moveInputVector>k__BackingField: {x: 0, y: 0, z: 0}
