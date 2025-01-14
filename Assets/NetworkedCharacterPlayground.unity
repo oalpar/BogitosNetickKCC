@@ -6210,7 +6210,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 11
+  SceneId: 12
 --- !u!114 &341945103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6554,7 +6554,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 10
+  SceneId: 11
 --- !u!1 &354849234
 GameObject:
   m_ObjectHideFlags: 0
@@ -7383,7 +7383,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 9
+  SceneId: 10
 --- !u!114 &381997476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15000,7 +15000,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 8
+  SceneId: 9
 --- !u!114 &775395794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17299,8 +17299,9 @@ GameObject:
   m_Component:
   - component: {fileID: 854516390}
   - component: {fileID: 854516389}
-  - component: {fileID: 854516388}
   - component: {fileID: 854516387}
+  - component: {fileID: 854516391}
+  - component: {fileID: 854516392}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -17352,14 +17353,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &854516388
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854516386}
-  m_Enabled: 1
 --- !u!20 &854516389
 Camera:
   m_ObjectHideFlags: 0
@@ -17426,6 +17419,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 52.47, y: 0, z: 0}
+--- !u!114 &854516391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854516386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b0e1865cf13ab4ca80b8909f217b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camera: {fileID: 854516389}
+  FollowPointFraming: {x: 0, y: 0}
+  FollowingSharpness: 10000
+  DefaultDistance: 6
+  MinDistance: 0
+  MaxDistance: 10
+  DistanceMovementSpeed: 5
+  DistanceMovementSharpness: 10
+  InvertX: 0
+  InvertY: 0
+  DefaultVerticalAngle: 20
+  MinVerticalAngle: -90
+  MaxVerticalAngle: 90
+  RotationSpeed: 1
+  RotationSharpness: 10000
+  RotateWithPhysicsMover: 0
+  ObstructionCheckRadius: 0.2
+  ObstructionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  ObstructionSharpness: 10000
+  IgnoredColliders: []
+  Transform: {fileID: 0}
+  FollowTransform: {fileID: 0}
+--- !u!114 &854516392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854516386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1923973434, guid: da78c2c9df60edc4fb5f65b59fa57c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _AoILayer: 0
+  _BroadPhaseFilter: 0
+  _NarrowPhaseFilter: 0
+  _PredictionMode: 0
+  _SpatialPrioritization: 0
+  AddToNetworkLoop: 1
+  _isPersistent: 0
+  GlobalObjectIdHash: 0
+  PrefabRoot: {fileID: 0}
+  Children: []
+  PrefabIndex: -1
+  _PrefabId: -1
+  SceneId: 1
 --- !u!1 &859455289
 GameObject:
   m_ObjectHideFlags: 0
@@ -17753,7 +17807,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 7
+  SceneId: 8
 --- !u!114 &866391862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23341,7 +23395,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 6
+  SceneId: 7
 --- !u!114 &1155763357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23717,7 +23771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SandboxPrefab: {fileID: 0}
   Transport: {fileID: 11400000, guid: 14d6bc5ddd1f07449b55992b8e683358, type: 2}
-  Mode: 4
+  Mode: 2
   Clients: 1
   StartServerInMultiplePeersMode: 1
   AutoStart: 1
@@ -24290,7 +24344,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 5
+  SceneId: 6
 --- !u!114 &1200780813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24543,7 +24597,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 12
+  SceneId: 13
 --- !u!4 &1217208249
 Transform:
   m_ObjectHideFlags: 0
@@ -25505,7 +25559,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 13
+  SceneId: 14
 --- !u!4 &1287707100
 Transform:
   m_ObjectHideFlags: 0
@@ -26477,7 +26531,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 4
+  SceneId: 5
 --- !u!114 &1350603598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40177,7 +40231,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 3
+  SceneId: 4
 --- !u!114 &2067384871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40783,7 +40837,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 2
+  SceneId: 3
 --- !u!114 &2080766219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41241,7 +41295,7 @@ MonoBehaviour:
   Children: []
   PrefabIndex: -1
   _PrefabId: -1
-  SceneId: 1
+  SceneId: 2
 --- !u!114 &2114474602
 MonoBehaviour:
   m_ObjectHideFlags: 0

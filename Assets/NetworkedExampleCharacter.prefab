@@ -92,7 +92,7 @@ Transform:
   m_GameObject: {fileID: 1339159333115884}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 3281382103626633657}
   - component: {fileID: 5375799662581498389}
   - component: {fileID: 6885403427980831409}
+  - component: {fileID: 363026771820212830}
   m_Layer: 0
   m_Name: NetworkedExampleCharacter
   m_TagString: Untagged
@@ -214,7 +215,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7783405596784226658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,11 +332,11 @@ MonoBehaviour:
     AttachedRigidbodyVelocity: {x: 0, y: 0, z: 0}
   <smoothedPos>k__BackingField: {x: 0, y: 0, z: 0}
   <smoothedRot>k__BackingField: {x: 0, y: 0, z: 0, w: 1}
-  RenderTransform: {fileID: 0}
+  RenderTransform: {fileID: 43330286}
   Capsule: {fileID: 136457490459165436}
   CapsuleRadius: 0.5
   CapsuleHeight: 2
-  CapsuleYOffset: 1
+  CapsuleYOffset: 0
   CapsulePhysicsMaterial: {fileID: 0}
   GroundDetectionExtraDistance: 0
   MaxStableSlopeAngle: 60
@@ -399,6 +400,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a63de78adf24014e9f56cf1d32c25f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &363026771820212830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398904762131290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f1ebc467551554ca0605fbdd0985e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FollowTransform: {fileID: 4718917724592500}
 --- !u!1 &1758411822872852
 GameObject:
   m_ObjectHideFlags: 0
