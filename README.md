@@ -9,3 +9,5 @@ Kinematic Character Controller.
 Both of the above assets should be installed by package manager before the use of this project.
 
 Open "NetworkedCharacterPlayground" scene for demo
+
+Inspired from another Netick KCC implementation https://github.com/Milk-Drinker01/Netick2-KCC
