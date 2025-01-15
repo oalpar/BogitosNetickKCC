@@ -378,7 +378,7 @@ MonoBehaviour:
   _AoILayer: 0
   _BroadPhaseFilter: 0
   _NarrowPhaseFilter: 0
-  _PredictionMode: 0
+  _PredictionMode: 1
   _SpatialPrioritization: 0
   AddToNetworkLoop: 1
   _isPersistent: 0
