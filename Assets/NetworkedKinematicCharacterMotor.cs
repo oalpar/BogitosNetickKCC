@@ -861,7 +861,7 @@ namespace BogitosKCC
 		{
 			Capsule.isTrigger = !collisionsActive;
 		}
-
+#if UNITY_EDITOR
 		public void OnDrawGizmos()
 		{
 			// Draw Velocity line and cone
@@ -914,6 +914,7 @@ namespace BogitosKCC
 				Gizmos.DrawSphere(end, 0.1f); // Adjust size as needed
 			}
 		}
+#endif
 		/// <summary>
 		/// Sets whether or not the motor will solve collisions when moving (or moved onto)
 		/// </summary>
